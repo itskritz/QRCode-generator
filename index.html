@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>qr code generator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <h1 id="title">Kritz QRcode Generator🎭👻</h1>
+    <h2 class="h2target">Click the button according to you mood and get a surprise QRcode</h2>
+    <p id="scroll" style="display:none;">⬇️Scroll down to see your QR</p>
+    <div class="container">
+        
+        <div class="grid">
+            
+            <div class="items"><button onclick="happy()" class="one1">Slayed it😉</button></div>
+            <div class="items"><button onclick="cooked()" class="one1">Cooked☠️</button></div>
+            <div class="items"><button onclick="side()" class="one2">Side eye🙄</button></div>
+            <div class="items"><button onclick="fah()" class="one2">Fahhhhh🗿</button></div>
+            <div class="items"><button onclick="rizz()" class="one3">Rizz😎</button></div>
+            <div class="items"><button onclick="rage()" class="one3">Ragebait💢</button></div>
+            <div class="items"><button onclick="aura()" class="one4">Aura farming🔥</button></div>
+            <div class="items"><button onclick="cringe()" class="one4">Cringe🥱</button></div>
+            <div class="qrcode"></div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
